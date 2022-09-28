@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+}
+#topo{
+    width: 100%;
+    background-color:hsl(201, 89%, 46%);
+    height: 30px;
+    position: fixed
+}
+.largura-site{
+    width: 900px;
+    margin: auto; /*centralizar na página*/
+}
+#logotipo{
+    width: 140px;
+    height: 24px;
+    float: left;
+}
+#menu{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 8px;
+}
+#menu a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+#menu a:hover{
+    text-decoration: underline; /*sublinhado quando passar o mouse em cima*/
+}
+.imghome{
+    float: left;
+}
+#jessica{
+    float: right;
+    width: 545px;
+}
+.conteudo{
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 1px solid hsl(201, 89%, 46%)
+}
+#rodape{
+    width: 100%;
+    height: 30px;
+    float: left;
+    font-size: 14px;
+    background-color: hsl(201, 89%, 46%);
+    color: #fff;
+    text-align: center;
+}
+.imgrigth{
+    float: right;
+}
+p{
+    color:black;
+    font-size :18px;
+    text-align: justify;
+}
+h1{
+    color:rgb(53, 12, 234);
+    font-size: 30px;
+
+}
+li{
+    margin-bottom: 15px;
+}
+ul{
+    color: black;
+    font-size: 14px;
+    list-style-type: square;/*alterar marcador*/
+    list-style-position: inside;
+}
